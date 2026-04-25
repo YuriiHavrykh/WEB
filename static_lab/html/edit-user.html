@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Редагувати працівника - AutoService Manager</title>
+    <link rel="stylesheet" href="../css/user.css">
+</head>
+<body>
+    <main class="create-user-page">
+        <form class="create-user-form">
+            <h2>Редагувати дані працівника</h2>
+
+            <div class="create-user-form__field">
+                <label>Логін</label>
+                <input type="text" value="yurii_havrykh" readonly style="background-color: #f0f0f0;">
+            </div>
+
+            <div class="create-user-form__field">
+                <label>Телефон</label>
+                <input type="tel" value="+380 67 111 22 33">
+            </div>
+
+            <div class="create-user-form__field">
+                <label>Роль</label>
+                <select>
+                    <option selected>Адміністратор</option>
+                    <option>Менеджер</option>
+                    <option>Механік</option>
+                </select>
+            </div>
+
+            <div class="create-user-form__field">
+                <label>СТО (Філія)</label>
+                <select>
+                    <option selected>Львів, вул. Наукова 7</option>
+                    <option>Київ, пр. Перемоги 15</option>
+                </select>
+            </div>
+
+            <div class="create-user-form__actions">
+                <button type="submit" class="btn-save">Зберегти</button>
+                <button type="button" class="btn-delete-action">Видалити</button>
+                <button type="button" class="btn-cancel" onclick="window.history.back()">Скасувати</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
