@@ -98,6 +98,9 @@ body {
 .status-badge.info {
   background-color: #17a2b8;
 }
+.status-badge.error {
+  background-color: #dc3545;
+}
 
 .btn-edit {
   background-color: #3498db;

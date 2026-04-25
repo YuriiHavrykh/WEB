@@ -98,6 +98,7 @@ body {
     &.success { background-color: $success-color; }
     &.warning { background-color: $warning-color; color: #333; } 
     &.info { background-color: $info-color; }
+    &.error { background-color: $error-color; }
 }
 
 .btn-edit {
